@@ -44,6 +44,9 @@ wheels/
 .env
 .env.local
 
+# Configuration files (sensitive)
+src/utilities/config.py
+
 # Testing
 .pytest_cache/
 .coverage
