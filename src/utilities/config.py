@@ -28,7 +28,7 @@ EMAIL_FROM_NAME = "Support-Mail"
 # Management notification recipients
 NOTIFICATION_RECIPIENTS = [
     "labus@interconnectionconsulting.com",
-    "strunakova@interconnectionconsulting.com",
+    #"strunakova@interconnectionconsulting.com",
 ]
 
 # ============================================================================
