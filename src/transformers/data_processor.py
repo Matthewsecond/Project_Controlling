@@ -3,7 +3,7 @@ import logging
 from typing import Sequence
 import pandas as pd
 
-import config
+from src.utilities import config
 
 logger = logging.getLogger(__name__)
 

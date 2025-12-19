@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 def test_error_notification():
     """Test sending error notification email."""
-    import email_service
+    from src.transformers import email_service
 
     logger.info("="*70)
     logger.info("TESTING ERROR NOTIFICATION EMAIL")
@@ -40,8 +40,8 @@ def test_error_notification():
 
 def test_management_report():
     """Test sending management report email."""
-    import database
-    import email_service
+    from src.loaders import database
+    from src.transformers import email_service
 
     logger.info("="*70)
     logger.info("TESTING MANAGEMENT REPORT EMAIL")

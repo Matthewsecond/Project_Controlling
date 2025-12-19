@@ -9,8 +9,8 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Engine
 
-import config
-from models import DateWindow, DeduplicationStats
+from src.utilities import config
+from src.utilities.models import DateWindow, DeduplicationStats
 
 logger = logging.getLogger(__name__)
 

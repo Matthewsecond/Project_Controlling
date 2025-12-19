@@ -5,8 +5,8 @@ from typing import List, Optional, Sequence, Tuple
 
 import pandas as pd
 
-import config
-from models import DateWindow, TimesheetData
+from src.utilities import config
+from src.utilities.models import DateWindow, TimesheetData
 
 logger = logging.getLogger(__name__)
 

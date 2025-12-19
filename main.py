@@ -3,7 +3,7 @@ import argparse
 import logging
 from datetime import date
 
-import pipeline
+from src.pipelines import pipeline
 
 logger = logging.getLogger(__name__)
 

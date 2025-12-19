@@ -5,15 +5,11 @@ from datetime import date
 from pathlib import Path
 from typing import List, Optional, Sequence
 
-import config
-import database
-import data_processor
-import email_service
-import excel_reader
-import status_service
-import timesheet_service
-import utils
-from models import DateWindow
+from src.utilities import config, utils
+from src.utilities.models import DateWindow
+from src.extractors import excel_reader
+from src.loaders import database
+from src.transformers import data_processor, email_service, status_service, timesheet_service
 
 logger = logging.getLogger(__name__)
 

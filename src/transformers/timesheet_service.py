@@ -6,10 +6,10 @@ from typing import List
 import pandas as pd
 from sqlalchemy.engine import Engine
 
-import config
-import data_processor
-import database
-from models import ProcessingStats
+from src.utilities import config
+from src.utilities.models import ProcessingStats
+from src.transformers import data_processor
+from src.loaders import database
 
 logger = logging.getLogger(__name__)
 

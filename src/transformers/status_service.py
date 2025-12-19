@@ -5,10 +5,10 @@ from datetime import datetime
 import pandas as pd
 from sqlalchemy.engine import Engine
 
-import config
-import data_processor
-import database
-from models import StatusStats
+from src.utilities import config
+from src.utilities.models import StatusStats
+from src.transformers import data_processor
+from src.loaders import database
 
 logger = logging.getLogger(__name__)
 

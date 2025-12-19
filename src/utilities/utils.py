@@ -3,7 +3,7 @@ import calendar
 from datetime import date, datetime
 from typing import Optional
 
-from models import DateWindow
+from src.utilities.models import DateWindow
 
 
 def create_date_window(
